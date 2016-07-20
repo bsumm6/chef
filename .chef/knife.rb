@@ -7,3 +7,5 @@ node_name                "Ben_new_key"
 client_key               "#{current_dir}/Ben_new_key.pem"
 chef_server_url          "https://172.31.2.231/organizations/coveros"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+# Amazon AWS
+knife[:aws_credential_file] = "/home/centos/aws.txt"
